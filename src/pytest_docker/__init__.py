@@ -83,7 +83,7 @@ class Services(object):
                 if 'No container found' in ex.args[0]:
                     return False
                 raise ex
-        self.wait_until_responsive(check_if_up, 180, 0.1)
+        self.wait_until_responsive(check_if_up, 60, 0.1)
 
         output = get_port()
         endpoint = output.strip()
