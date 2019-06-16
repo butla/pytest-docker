@@ -8,7 +8,7 @@ from setuptools import (
 
 
 setup(
-    name='pytest-docker',
+    name='pytest-docker-butla',
     url='https://github.com/AndreLouisCaron/pytest-docker',
     version='0.7.0',
     license='MIT',

@@ -6,5 +6,6 @@
 /.cache/
 /.tox/
 /htmlcov/
-/pytest_docker.egg-info/
-/src/pytest_docker.egg-info/
+/build/
+/dist/
+*.egg-info
